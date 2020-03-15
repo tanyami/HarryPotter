@@ -1,0 +1,52 @@
+body {
+  font-family: 'UnifrakturCook', cursive;  
+  color: rgb(16, 10, 53);
+  padding: 0;
+  margin: 0;
+  background:  no-repeat url('https://i.postimg.cc/9XKs9B4x/HfURRwV.jpg');
+  background-size:  100% 100% ; 
+  text-align: center;  
+}
+h2 {
+  font-size: 28px;
+  color: rgb(99, 10, 10);
+  padding-right: 30px;
+}
+.wrapper {
+  margin: 20px; 
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  margin: 20px 0;
+}
+.logo img {
+  width: 70px;
+  height: 80px;
+}
+#students{
+  margin: 0 auto;
+}
+ img {
+  width: 130px;
+  height: 180px;
+  border-radius: 20%;
+  margin-right: 20px;
+}
+#teachers, #gryff, #slyth, #huffl{
+  display: flex;
+  justify-content: space-around;
+  list-style-type: none;
+  padding: 0;
+  margin: 0; 
+}
+p {
+  font-size: 20px;
+  padding: 0;
+}
+#teachers img {
+  width: 80px;
+  height: 120px;
+  border-radius: 20%;
+  margin-right: 20px;
+}
